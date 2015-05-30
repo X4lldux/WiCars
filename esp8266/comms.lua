@@ -1,8 +1,8 @@
 local ap_file="ap.list"
 
 file.open(ap_file)
-local ap=sub(file.readline(), 1, -2)
-local pass=sub(file.readline(), 1, -2)
+local ap=string.sub(file.readline(), 1, -2)
+local pass=string.sub(file.readline(), 1, -2)
 file.close()
 
 wifi.setmode(wifi.STATION)
@@ -17,7 +17,7 @@ tmr.alarm(0, 1000, 1, function()
                 tmr.stop(0)
                 print("CONNECTED! "..ip)
 
-                connect_mqtt_broker()
+                msger.connect()
              end
 
 end)

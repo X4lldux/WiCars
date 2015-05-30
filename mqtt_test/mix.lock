@@ -1,0 +1,5 @@
+%{"emqttc": {:git, "git://github.com/emqtt/emqttc.git", "871ed21f60c8325d4dbee49b090c2e50cb25e277", [tag: "0.4.1-beta"]},
+  "gen_logger": {:git, "git://github.com/emqtt/gen_logger.git", "c4bd97e90ed9d770f25ec3045997f7597cd0c2b9", [branch: "master"]},
+  "goldrush": {:git, "git://github.com/DeadZen/goldrush.git", "71e63212f12c25827e0c1b4198d37d5d018a7fec", [tag: "0.1.6"]},
+  "hulaaki": {:hex, :hulaaki, "0.0.1"},
+  "lager": {:git, "git://github.com/basho/lager.git", "d33ccf3b69de09a628fe38b4d7981bb8671b8a4f", [branch: "master"]}}
